@@ -1,0 +1,15 @@
+{
+  "api": { 
+    "smartresponder_frontend_api_endpoint" : "https://XXXXXXXXXXXXX.execute-api.us-west-2.amazonaws.com/dev",
+    "smartresponder_websocket_api_endpoint": "wss://XXXXXXXXXXXXX.execute-api.us-west-2.amazonaws.com/dev"
+  },
+  "statemachine" :{
+    "process_travelDesk_reply_to_4eye_check_approver" : "arn:aws:states:us-west-2:XXXXXXXXXXXXX:stateMachine:SmartResponder-Process-TravelDesk-Reply-to-4Eye-Check-Approver",
+    "send_reply_to_customer": "arn:aws:states:us-west-2:XXXXXXXXXXXXX:stateMachine:SmartResponder-Send-Reply-To-Customer"
+  },
+  "cognito": {
+    "REGION": "us-west-2",
+    "USER_POOL_ID": "us-west-2_XXXXXXXXXXXXX",
+    "APP_CLIENT_ID": "XXXXXXXXXXXXX"
+  }
+}
